@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+* {
+    font-family: "MonteCarlo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+/* element selector */
+h2 {
+    color:brown
+}
+
+/* id selector */
+#container{
+    border: solid blue 3px ;
+}
+
+/* class selector */
+.para{
+    font-size: 6vw;
+    color: aqua;
+}
+
+/* attribute selector */
+h1[name="heading"]{
+    color: blueviolet;
+}
+
+/* hover Pseudo-class */
+h2:hover{
+    font-size: 100px;
+}
+
+/* first letter Pseudo-element*/
+.para::first-letter{
+    color: red;
+}
+
+
+
+Parent-element{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+}
+
+@media (min-width: 12345) {
+    /* CSS properties and values */
+}
+@media (max-width: 6789px) {
+    /* CSS properties and values */
+}
+
+.element {
+    animation: pulse 5s infinite;
+   }
+@keyframes pulse {
+    0% {
+        background-color: #001F3F;
+    }
+    100% {
+        background-color: #FF4136;
+    }
+}
+   
